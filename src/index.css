@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  margin-top: 40px;
+  height: 80vh;
+  width: 40vw;
+  background-color: #58585833;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  height: 32px;
+  width: 500px;
+  justify-content: center;
+  padding: 20px 0px;
+  margin-right: 6px;
+}
+
+form input[type=text] {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+form button {
+  padding: 3.5px 21px 31.5px 21px;
+  font-weight: 900;
+  font-size: 18px;
+  background-color: #a1c181;
+  color: #000000;
+}
+
+tr td button {
+  float: right;
+  padding: 3.4px 1.5px;
+  font-weight: 900;
+  font-size: 18px;
+  background-color: #233d4d;
+  color: #eff6e0;
+}
